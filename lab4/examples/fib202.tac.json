@@ -1,0 +1,214 @@
+[
+  {
+    "proc": "@main",
+    "body": [
+      {
+        "opcode": "label",
+        "args": [
+          "%.L3"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          20
+        ],
+        "result": "%1"
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%1"
+        ],
+        "result": "%0"
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0
+        ],
+        "result": "%3"
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%3"
+        ],
+        "result": "%2"
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1
+        ],
+        "result": "%5"
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%5"
+        ],
+        "result": "%4"
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0
+        ],
+        "result": "%7"
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%7"
+        ],
+        "result": "%6"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L0"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%0"
+        ],
+        "result": "%9"
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0
+        ],
+        "result": "%10"
+      },
+      {
+        "opcode": "sub",
+        "args": [
+          "%9",
+          "%10"
+        ],
+        "result": "%11"
+      },
+      {
+        "opcode": "jnl",
+        "args": [
+          "%11",
+          "%.L1"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L2"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L1"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%0"
+        ],
+        "result": "%12"
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1
+        ],
+        "result": "%13"
+      },
+      {
+        "opcode": "sub",
+        "args": [
+          "%12",
+          "%13"
+        ],
+        "result": "%0"
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%2"
+        ],
+        "result": "%14"
+      },
+      {
+        "opcode": "print",
+        "args": [
+          "%14"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%2"
+        ],
+        "result": "%15"
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%4"
+        ],
+        "result": "%16"
+      },
+      {
+        "opcode": "add",
+        "args": [
+          "%15",
+          "%16"
+        ],
+        "result": "%6"
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%4"
+        ],
+        "result": "%2"
+      },
+      {
+        "opcode": "copy",
+        "args": [
+          "%6"
+        ],
+        "result": "%4"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L0"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L2"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "ret",
+        "args": [
+          "%6"
+        ],
+        "result": null
+      }
+    ]
+  }
+]

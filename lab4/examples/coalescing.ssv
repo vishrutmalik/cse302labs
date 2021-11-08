@@ -1,0 +1,11 @@
+label [%.L1] None
+jmp [%.L2] None
+label [%.L2] None
+jmp [%.L3] None
+label [%.L3] None
+jmp [%.L4] None
+label [%.L4] None
+jmp [%.L5] None
+label [%.L5] None
+jz [%1, %.L4]
+ret [] None

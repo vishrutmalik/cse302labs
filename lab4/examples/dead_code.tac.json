@@ -1,0 +1,55 @@
+[
+    {
+        "proc": "@main",
+        "args": [],
+        "body": [
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L1"
+                ],
+                "result": "None"
+            },
+            {
+                "opcode": "jmp",
+                "args": [
+                    "%.L4"
+                ],
+                "result": ""
+            },
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L2"
+                ],
+                "result": "None"
+            },
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L3"
+                ],
+                "result": "None"
+            },
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L4"
+                ],
+                "result": "None"
+            },
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L5"
+                ],
+                "result": "None"
+            },
+            {
+                "opcode": "ret",
+                "args": [],
+                "result": "None"
+            }
+        ]
+    }
+]

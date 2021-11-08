@@ -1,0 +1,13 @@
+label [%.L1] None
+jz [%1, %.L2] None
+jmp [%.L20] None
+label [%.L2] None
+copy [10] %1
+jz [%1, %.L3] None
+jmp [%.L30] None
+label [%.L3] None
+jmp [%.L20] None
+label [%.L20] None
+jmp [%.L30] None
+label [%.L30] None
+ret [] None

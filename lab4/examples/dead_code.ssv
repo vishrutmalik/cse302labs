@@ -1,0 +1,7 @@
+label [%.L1] None
+jmp [%.L4]
+label [%.L2] None
+label [%.L3] None
+label [%.L4] None
+label [%.L5] None
+ret [] None

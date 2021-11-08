@@ -1,0 +1,84 @@
+[
+    {
+        "proc": "@main",
+        "args": [],
+        "body": [
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L1"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "jmp",
+                "args": [
+                    "%.L2"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L2"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "jmp",
+                "args": [
+                    "%.L3"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L3"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "jmp",
+                "args": [
+                    "%.L4"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L4"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "jmp",
+                "args": [
+                    "%.L5"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "label",
+                "args": [
+                    "%.L5"
+                ],
+                "result": null
+            },
+            {
+                "opcode": "jz",
+                "args": [
+                    "%1",
+                    "%.L4"
+                ],
+                "result": ""
+            },
+            {
+                "opcode": "ret",
+                "args": [],
+                "result": null
+            }
+        ]
+    }
+]
