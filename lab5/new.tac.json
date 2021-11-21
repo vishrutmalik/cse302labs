@@ -1,0 +1,618 @@
+[
+  {
+    "proc": "@main",
+    "args": [],
+    "body": [
+      {
+        "opcode": "label",
+        "args": [
+          "%.L0",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1,
+          null
+        ],
+        "result": "%1.0"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L1",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L1",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L0": "%1.0"
+          },
+          null
+        ],
+        "result": "%1.1"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%1.1"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L2",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L2",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1,
+          null
+        ],
+        "result": "%2.2"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L3",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L3",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L2": "%2.2"
+          },
+          null
+        ],
+        "result": "%2.3"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%2.3"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L4",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L4",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1,
+          null
+        ],
+        "result": "%3.4"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L5",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L5",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L4": "%3.4"
+          },
+          null
+        ],
+        "result": "%3.5"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%3.5"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L6",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L6",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1,
+          null
+        ],
+        "result": "%4.6"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L7",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L7",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L6": "%4.6"
+          },
+          null
+        ],
+        "result": "%4.7"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%4.7"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L8",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L8",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0,
+          null
+        ],
+        "result": "%5.8"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L9",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L9",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L8": "%5.8"
+          },
+          null
+        ],
+        "result": "%5.9"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%5.9"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L10",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L10",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0,
+          null
+        ],
+        "result": "%6.10"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L11",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L11",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L10": "%6.10"
+          },
+          null
+        ],
+        "result": "%6.11"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%6.11"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L12",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L12",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0,
+          null
+        ],
+        "result": "%7.12"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L13",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L13",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L12": "%7.12"
+          },
+          null
+        ],
+        "result": "%7.13"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%7.13"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L14",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L14",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0,
+          null
+        ],
+        "result": "%8.14"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L15",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L15",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L14": "%8.14"
+          },
+          null
+        ],
+        "result": "%8.15"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%8.15"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L16",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L16",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0,
+          null
+        ],
+        "result": "%9.16"
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L17",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L17",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "phi",
+        "args": [
+          {
+            "%.L16": "%9.16"
+          },
+          null
+        ],
+        "result": "%9.17"
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%9.17"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "jmp",
+        "args": [
+          "%.L18",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L18",
+          null
+        ],
+        "result": null
+      },
+      {
+        "opcode": "ret",
+        "args": [
+          null,
+          null
+        ],
+        "result": null
+      }
+    ]
+  }
+]
